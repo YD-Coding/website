@@ -1,0 +1,167 @@
+body {
+    background-image: url("assets/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 300vh;
+}
+
+@font-face {
+    font-family: titleFont;
+    src: url(assets/ChelseaMarket-Regular.ttf);
+  }
+  
+@font-face {
+    font-family: mainFont;
+    src: url(assets/Typewriter.ttf)
+}
+
+div {
+    font-family: mainFont;
+}
+
+#about_us {
+    font-size: 50px;
+}
+
+.rect {
+    font-size: 24px;
+    width: 300px;
+    height: 535px;
+    background-color: white;
+    border-color: black;
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 7px;
+}   
+
+#rect1 {
+    background-color: royalblue;
+    position: absolute;
+    top: 500px;
+    right: 1195px;
+}
+
+#rect2 {
+    background-color: #A330D8;
+    position: absolute;
+    top: 455px;
+    right: 710px;
+    width: 450px;
+    height: 700px;
+    z-index: 10;
+}
+
+#rect3 {
+    background-color: #B22020;
+    position: absolute;
+    top: 560px;
+    right: 375px;
+
+
+
+
+    
+}
+
+
+
+
+.logo {
+    width: 120px;
+    height: 120px;
+    align-items: center;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#withborder {
+    border-radius: 8px;
+    border-style: solid;
+    border-color: white;
+}
+
+
+.main_title {
+    font-size: 80px;
+    font-family: titleFont;
+    text-align: center;
+    color: black;
+
+
+
+}
+
+.github {
+    width: 400px;
+    height: 120px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#name_titles {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#desc {
+    font-size: 20px;
+    text-align: center;
+}
+.other_titles {
+    font-family: titleFont;
+    font-size: 60px;
+    position: absolute;
+    top: 312px;
+    right: 830px;
+    font-weight: bold;
+
+}
+
+#skills {
+    position: absolute;
+    top: 1250px;
+    right: 800px;
+}
+
+#our_games {
+    font-weight: bold;
+    position: absolute;
+    top: 2000px;
+    right: 760px;
+}
+
+.harry {
+    width:  640px;
+    height: 400px;
+    position: absolute;
+    top: 2250px;
+    right: 1100px;
+    border-style: solid;
+    border-color: black;
+    border-width: 6px;
+}
+
+#harry_flying {
+    font-size: 42px;
+    position: absolute;
+    top: 2165px;
+    right: 1300px;
+}
+
+#tkinter {
+    position: absolute;
+    top: 170px;
+    right: 500px;
+}
+
+#python {
+    position: absolute;
+    top: 170px;
+    right: 200px;
+}
