@@ -1,9 +1,10 @@
 body {
-    background-image: url("assets/background.jpg");
+    background-image: url("assets/back.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 300vh;
 }
+
 
 @font-face {
     font-family: titleFont;
@@ -15,12 +16,32 @@ body {
     src: url(assets/Typewriter.ttf)
 }
 
+@font-face {
+    font-family: logoFont;
+    src: url(assets/Smartphone\ Color\ Pro.ttf)
+}
+
+
+
 div {
+    font-weight: 700;
     font-family: mainFont;
+}
+
+.main_title {
+    font-size: 80px;
+    font-family: titleFont;
+    letter-spacing: 5px;
+    text-align: center;
+    color: black;
+
+
+
 }
 
 #about_us {
     font-size: 50px;
+    top: 352px;
 }
 
 .rect {
@@ -29,42 +50,40 @@ div {
     height: 535px;
     background-color: white;
     border-color: black;
-    padding: 10px;
+    padding: 17px;
     border-style: solid;
     border-width: 3px;
     border-radius: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }   
 
 #rect1 {
-    background-color: royalblue;
+    background-color: rgb(164, 234, 252);
     position: absolute;
-    top: 500px;
+    top: 560px;
     right: 1195px;
+    box-shadow: 10px 10px 2px 5px #888888;
 }
 
 #rect2 {
-    background-color: #A330D8;
+    background-color: rgb(164, 234, 252);
     position: absolute;
-    top: 455px;
+    top: 515px;
     right: 710px;
     width: 450px;
     height: 700px;
     z-index: 10;
+    box-shadow: 3px 10px 2px 5px #888888;
 }
 
 #rect3 {
-    background-color: #B22020;
+    background-color: rgb(164, 234, 252);
+    height: 550px;
     position: absolute;
-    top: 560px;
+    top: 620px;
     right: 375px;
-
-
-
-
-    
+    box-shadow: 10px 10px 2px 5px #888888;
 }
-
-
 
 
 .logo {
@@ -83,17 +102,6 @@ div {
     border-color: white;
 }
 
-
-.main_title {
-    font-size: 80px;
-    font-family: titleFont;
-    text-align: center;
-    color: black;
-
-
-
-}
-
 .github {
     width: 400px;
     height: 120px;
@@ -103,7 +111,7 @@ div {
     margin-right: auto;
 }
 
-#name_titles {
+.name_titles {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -115,6 +123,7 @@ div {
 }
 .other_titles {
     font-family: titleFont;
+    letter-spacing: 2px;
     font-size: 60px;
     position: absolute;
     top: 312px;
@@ -123,45 +132,163 @@ div {
 
 }
 
-#skills {
-    position: absolute;
-    top: 1250px;
-    right: 800px;
-}
-
+                      /*our games*/
 #our_games {
     font-weight: bold;
     position: absolute;
-    top: 2000px;
+    top: 1900px;
     right: 760px;
 }
 
-.harry {
+.games_img {
     width:  640px;
     height: 400px;
     position: absolute;
-    top: 2250px;
-    right: 1100px;
+    top: 2100px;
     border-style: solid;
     border-color: black;
     border-width: 6px;
 }
 
+#harry_img{
+    right: 1100px;
+}
+
+#jitter_img {
+    right: 200px;
+}
+
+
 #harry_flying {
     font-size: 42px;
     position: absolute;
-    top: 2165px;
+    top: 2015px;
     right: 1300px;
+}
+
+#jitter_click {
+    font-size: 42px;
+    position: absolute;
+    top: 2015px;
+    right: 400px;    
+}
+
+
+
+                 /*skills*/
+                 
+                 
+#skills {
+    position: absolute;
+    top: 1350px;
+    right: 800px;
 }
 
 #tkinter {
     position: absolute;
     top: 170px;
-    right: 500px;
+    right: 250px;
 }
 
 #python {
     position: absolute;
     top: 170px;
-    right: 200px;
+    right: 40px;
 }
+
+#html_logo {
+    position: absolute;
+    top: 170px;
+    right: -160px;
+}
+
+#css {
+    width: 90px;
+    position: absolute;
+    top: 170px;
+    right: -360px;
+}
+
+#pygame {
+    width: 310px;
+    position: absolute;
+    top: 170px;
+    right: 460px;
+}
+
+
+.contact_block {
+    width: 1920px;
+    height: 175px;
+    background-color: black;
+    position: absolute;
+    top: 2700px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+.contact_logo {
+    width: 50px;
+    position: absolute;
+
+    
+}
+
+#inst_logo {
+    top: 2760px;
+    width: 70px;
+    left: 315px;
+
+}
+
+#inst_logo2 {
+    top: 2760px;
+    width: 70px;
+    left: 1150px;
+}
+
+#what_logo {
+    top: 2769px;
+    left: 410px;
+}
+
+#what_logo2 {
+    top: 2769px;
+    left: 1250px;
+}
+
+.p_number {
+    font-size: 45px;
+    text-shadow: 10px, 10px, white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 2760px;
+    color: white;
+
+}
+
+#dan_p {
+    left: 460px;
+}
+
+
+#yarin_p {
+    left: 1300px;
+}
+
+.names_contact {
+    position: absolute;
+    top: 2745px;
+    font-size: 65px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#dan_name {
+    left: 150px;
+}
+
+#yarin_name {
+    left: 950px;
+}
+
